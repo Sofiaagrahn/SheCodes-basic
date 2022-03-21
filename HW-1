@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheCode Homework 1</title>
+    <style>
+
+        body {
+            background-color:#fcf8f3;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0 0 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0%;
+        }
+
+        li {
+            margin: 0 auto;
+            max-width: 350px;
+            padding: 7px 0;
+            text-align: center;
+        }
+
+        li:hover {
+            background-color:#ffd3b6;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 150ms ease-in-out;
+        }
+
+        p {
+            font-size: x-large;
+        }
+
+        button {
+            background-color: #ffffff;
+            border-color: black;
+            border-radius: 50px;
+            box-shadow: 2px 2px 2px;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 25px 30px;
+        }
+
+        button:hover {
+            background-color: #ffd3b6;
+            color: #fcf8f3;
+            cursor: pointer;
+        }
+
+        .cloudy-sun {
+            margin: 0 auto;
+            color: orange;
+        }
+
+        .normal-font {
+            font-weight: normal;
+        }
+
+        .bold-font {
+            font-weight: bold;
+        }
+
+        .small-font {
+            font-size: small;
+        }
+
+        .button {
+            color: black;
+            font-weight: normal;
+            text-decoration: none;
+        }
+
+        .instagram {
+            color: #f09433;
+            padding: 0 2px;
+        }
+
+        .instagram:hover {
+            color: #e95950;
+        }
+
+        .email {
+            color: #76B82A;
+            text-decoration: underline;
+        }
+
+        .email:hover {
+            color: #059862;
+            cursor: pointer;
+        }
+
+        .weather {
+            color: orange;
+            margin: 0 auto;
+            text-decoration: none;
+        }
+
+        .weather:hover {
+            color: #e95950;
+        }
+
+   </style>
+</head>
+<body>
+    <h1>
+            <a href="https://www.weather.com/"class="weather" target="_blank">    
+            🌤
+            </a>
+            <br />
+            <div class="cloudy-sun">
+                Currently 1° in Stockholm
+            </div>
+    </h1>
+    <h1>
+        <span class="normal-font">
+            -4°
+        </span>
+        /
+        <span>
+            6°
+        </span>
+    </h1>
+    <ul>
+        <li>
+            <h2>
+                🌧 Tomorrow 🌧
+            </h2>
+            <p>
+                -6° /
+                <span class="bold-font">
+                    2°
+                </span> 
+            </p>
+        </li>
+        <li>
+            <h2>
+                ☀️ Saturday ☀️
+            </h2>
+            <p>
+                -5° /
+                <span class="bold-font">
+                    4°
+                </span>
+            </p>
+        </li>
+        <li>
+            <h2>
+                🌥 Sunday 🌥
+            </h2>
+            <p>
+                -3° /
+                <span class="bold-font">
+                    -4°
+                </span>
+            </p>
+        </li>
+        <li>
+            <h2>
+                🌩 Monday 🌩
+            </h2>
+            <p>
+                -2° /
+                <span class="bold-font">
+                    6°
+                </span>
+            </p>
+        </li>
+    </ul>
+    <button>
+        <a href="https://www.weather.com/" class="button">
+        Change city
+        </a>
+    </button>
+    <p class="small-font">
+        Coded by Sofia Grahn
+        <br />
+        <a href="https://www.instagram.com/sofiaagrahn/" class="instagram" target="_blank">
+            Instagram
+        </a>
+         | 
+        <span class="email">
+            Email
+        </span>
+    </p>
+
+</body>
+</html>
