@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework week 3</title>
+<style>
+
+	a {
+		text-decoration: none;
+	}
+
+	body {
+		background: linear-gradient(#fbdff0, #f6c3e5, #f6c3e5);
+		text-align: center;
+	}
+
+	button {
+		background-color: #ffebeb;
+		border: solid rgba();	
+		border-radius: 70px;
+		box-shadow: 1.7px 2px;
+		padding: 20px 20px;
+		
+	}
+
+	button:hover {
+		background-color: #ffffff;
+		cursor: pointer;
+		transition: 175ms;
+	}
+
+	img {
+		margin: 0 auto;
+		max-width: 100%;
+		width: 800px;
+	}
+
+	p {
+		line-height: 150%;
+	}
+
+	ul {
+      list-style: none;
+    }
+
+	.address {
+		font-weight: bold;
+	}
+
+	.contact {
+		font-size: xx-small;
+		font-style: italic;
+	}
+
+	.description {
+		margin-top: 30px;
+	}
+
+	.faceBook {
+		color: #3b5998;
+		font-style: normal;
+		padding: 0 2px;
+	}
+
+	.faceBook:hover {
+		color: #0000ff;
+		cursor: pointer;
+		text-decoration: underline;
+	}
+
+	.instagram {
+		color: #e1306c;
+		font-style: normal;
+        padding: 0 2px;
+	}
+
+	.instagram:hover {
+		color: #fd1d1d;
+		cursor: pointer;
+		text-decoration: underline;
+	}
+
+	.introduction {
+		font-size: 32px;
+	}
+
+	.linkedIn {
+		color: #0e76a8;
+		font-style: normal;
+		padding: 0 2px;
+	}
+
+	.linkedIn:hover {
+		color: #1293d2;
+		cursor: pointer;
+		text-decoration: underline;
+	}
+
+	.minimumAge {
+		font-size: smaller;
+		margin-top: 0;
+	}
+
+	.number {
+		margin-top: 50px;
+		margin-bottom: 0px;
+	}
+
+	.pageHeader {
+		font-size: 40px;
+		font-weight: bolder;
+	}
+
+	.restaurant {
+		color: black;
+		margin-bottom: 50px;
+		margin-top: 0px;
+		text-decoration: none;
+	}
+
+	.restaurant:hover {
+		color: #3f3b3b;
+		cursor: pointer;
+		text-decoration: underline;
+	}
+
+	.subscribe {
+		margin-bottom: 0px;
+	}
+
+	.trySub {
+		font-style: italic;
+	}
+
+</style>
+</head>
+<body>
+	<h1 class="pageHeader">
+    Top 10 Restaurants in Stockholm
+  </h1>
+  <p>
+    Food is one of the most important things we need and something a strong majority of people eat to enjoy either for the food or for the company or both.
+    Working in the hotel industry, I notice a lot of people who comes to our capital here in Sweden are not aware of the amount of great restaurants with food from all over the world all in one place.
+    This list of THE top 10 restaurants in Stockholm is for anyone and everyone who just wishes to experience a great food experience and make the most of their stay!
+  <br />
+  	<div class="trySub">
+		If you appreciate our page, please consider subscribing using the button at the bottom at the page😊
+	  </div> 
+  </p>
+  <br />
+  <hr />
+  <ul>
+    <li>
+      <h1 class="number">
+			 	N° 10
+			</h1>
+			<h2>
+				<a href="https://www.sthlmtapas.se/" target="_blank" class="restaurant">
+					STHLM TAPAS 
+	  		</a>
+      </h2>
+			<img src="https://www.sthlmtapas.se/uploads/4/1/3/8/41389517/img-0172_orig.jpg" class="numberTenPicture"> 
+		<p class="description">
+			STHLM TAPAS is a tapas restaurant and winebar with food and wine inspired from the mediterranean and Europe. Their food is served as tapas which makes it possible to order and try several different dishes for those who doesn't feel satisfied with having to choose only one or simply just can't decide what they want. 
+		<br />	 
+		<br />
+		  You can find this lovely and cozy restaurant on 
+			  <span class="address">
+			 	  Torsgatan 55
+			  </span>
+			just north of the city centre in the well-known part called Vasastan.
+		<br />
+		</p>
+  		</li>
+			<br />
+			<li>
+				<h1 class="number">
+					N° 9
+				</h1>
+				<h2>
+					<a href="https://restaurang-esperanza.se/" target="_blank" class="restaurant">
+						Restaurang Esparanza
+					</a>
+				</h2>
+				<img src="https://static.thatsup.co/content/img/place/e/s/user-photo/5e788c96-thumb.jpg" class="numberNinePicture" />
+				<p class="description">
+					Restaurant Esparanza is famous for their high-class and welcoming staff, as well as for their exceptional food and wine of course. They specialize in Italian and mediterranean food and also have a wide variety of dishes for their vegetarian and vegan guests. They have a wide variety of food and over 50 assortions of wine and grappa. If you are a fan of wine or Italian food and also wishes for quality service this is a restaurant for you!
+					<br />
+					<br />
+					You will find this cozy and elegant restaurant on 
+					<span class="address">
+						Drottninggatan 77 
+					</span>
+					in the northern part of the city centre.
+				</p>
+			</li>
+			<br />
+			<li>
+				<h1 class="number">
+					N° 8
+				</h1>
+				<h2>
+					<a href="https://tabbouli.eu/vara-restauranger/soder/" target="_blank" class="restaurant">
+						Tabbouli
+					</a>
+				</h2>
+				<img src="https://static.thatsup.co/content/img/place/t/a/e50fa954f99cc250c1fda67f4f7af8b1.jpg" class="numberEightPicture" />
+				<p class="description">
+				  Tabbouli is a restaurant with a royal esthetic and serves over 40 different Lebanese and mediterranean dishes to choose from. At Tabbouli they don't only serve food, but they do it with feeling and excitement to make sure you can experience the true Libanon feeling. Tabbouli does not only serve you delicious and real lebanese food, but also a large variety of wines from many places such as Bekaadalen in Libanon to Margaux in France.
+					<br />
+					<br />
+					You can find this wonderful and esthetic restaurant at
+					<span class="address">
+						Tavastagatan 22
+					</span>
+					on Södermalm, just south of the Old Town in Stockholm.
+				</p>
+			</li>
+			<br />
+			<li>
+				<h1 class="number">
+					N° 7
+				</h1>
+				<h2>
+					<a href="https://restaurangprinsen.se/" target="_blank" class="restaurant">
+						Restaurang Prinsen
+					</a>
+				</h2>
+				<img src="https://restaurangprinsen.se/wp-content/uploads/sites/8/2020/02/Group-377@2x-1.png" class="numberSevenPicture" />
+				<p class="description">
+					Restaurang Prinsen is a popular fine dining restaurant where everyone from painters and culture workers to business people, media officials have gathered since 1897. Prinsen is known for their classic, but not pretentious atmosphere and decor. At Prinsen they serve the true classic swedish food like meatballs and mashed potatoes, toast skagen and the famous Wallenbergaren. It is a place for everyone and should you wish to experience some of the best swedish food, this is a must to visit.
+				<br />
+				<br />
+					You can find it on 
+				<span class="address">
+					Mäster Samuelsgatan 4
+				</span>
+					on Östermalmstorg which is right in the city centre.
+				</p>
+			</li>
+			<br />
+			<li>
+				<h1 class="number">
+					N° 6
+				</h1>
+				<h2>
+					<a href="https://www.patsplace.se/" target="_blank" class="restaurant">
+						Pat's Place
+					</a>
+				</h2>
+				<img src="https://www.patsplace.se/wp-content/uploads/2018/05/restaurant-800x400.jpg" class="numberSixPicture" />
+				<p class="description">
+					If you are a fan of Thai food but not in the mood to go to either one of those messy and loud buffét restaurants or the occasional food trucks, this is worth looking into. At Pat's they serve delicious thai food in tapas-size, which means that you get to enjoy so much more food without having to wressle your way past 20 other guests all moving in different directions, and all while getting a charming and welcoming treatment from the staff. 
+				<br />
+				<br />
+					You will find Pat's Place on 
+				<span class="address">
+					Folkungagatan 140
+				</span>
+					in the middle of Södermalm.
+				</p>
+			</li>
+			<br />
+			<li>
+				<h1 class="number">
+					N° 5
+				</h1>
+				<h2>
+					<a href="https://restauranghantverket.se/" target="_blank" class="restaurant">
+						Restaurang Hantverket
+					</a>
+				</h2>
+				<img src="https://restaurangprinsen.se/wp-content/uploads/sites/8/2020/02/Group-377@2x-1.png" class="numberFivePicture" />
+				<p class="description">
+					Restaurang Hantverket is a restaurant focusing on Swedish and Scandinavian cuisine. Hantverket in english means craft and just as the name refers, the craft of everything from the origin and growth of the ingredients as well as the food and decor is of great value. At Hantverket they aim to give you an experience that will touch all your sense's regarding both food, service and decor. They are also VISITA approved through their requirements as a safe restaurant in regard to Covid-19.
+				<br />
+				<br />
+					You can find Restaurang Hantverket on 
+				<span class="address">
+					Sturegatan 15
+				</span>
+					which is easily accessible in the middle of the city center.
+				</p>
+			</li>
+			<br />
+			<li>
+				<h1 class="number">
+					N° 4
+				</h1>
+				<h2>
+					<a href="https://www.momskitchen.se/" target="_blank" class="restaurant">
+						Mom's Kitchen
+					</a>
+				</h2>
+				<img src="https://queenshotel.se/wp-content/uploads/2021/05/view-queens-hotel-stockholm-7-1200x630.jpg" class="numberFourPicture" />
+				<p class="description">
+					Mom's Kitchen opened in 2014 and specializes in European and Scandinavian food. The owners decided to open the restaurant after realizing the complications and struggles of trying to find high-quality homemade, local and healthy food.	At Mom's Kitchen they endeavour to serve their guests  a quick, easy to bring dish without compromising the quality. They only use fresh ingredients from lovally sourced and produced groceries, and without preservatives, taste enhancers or other chemicaly based products. All their food can either be enjoyed at the restaurant or already packaged and readyfor you to bring home.
+				<br />
+				<br />
+					You can find Mom's Kitchen on
+				<span class="address">
+					Nybrogatan 40
+				</span>
+					just between Norrmalm and Östermalm in the city center.
+				</p>
+			</li>
+			<br />
+			<li>
+				<h1 class="number">
+					N° 3
+				</h1>
+				<h2>
+					<a href="https://www.glashuset.com/" target="_blank" class="restaurant">
+						Glashuset
+					</a>
+				</h2>
+				<img src="https://images.squarespace-cdn.com/content/v1/5db1a4cd90991e5d2149672a/1572993051159-Z7ZPZR8FN1123WTW0RVK/Glashuset-8446low.jpg?format=1000w" class="numberThreePicture" />
+				<p class="description">
+					Glashuset, or the Glass house as it would be called in english, has existed since 1955 and was by the used as the first fuel gas station in Sweden. Since then the building has been used for a few different things, but in 2018 a decision was made to transfrom the old fuelgas station to a new restaurant and brasserie with dining rooms, bars and outdoor seatings. At Glashuset they specialize in Scandinavian and Swedish food, and their central position allows them to keep open all days in the week year.round.
+				<br />
+				<br />
+					You can find Glashuset on 
+				<span class="address">
+					Strandvägen, Docking-bay 18
+				</span>
+					just by the water in the middle of Stockholm.
+				</p>
+			</li>
+			<br />
+			<li>
+				<h1 class="number">
+					N° 2
+				</h1>
+				<h2>
+					<a href="https://tapas28.se/" target="_blank" class="restaurant">
+						Tapas28
+					</a>
+				</h2>
+				<img src="https://static.thatsup.co/content/img/place/t/a/tapas-28-14.jpg" class="numberTwoPicture" />
+				<p class="description">
+					Tapas 28 is a restaurant inspired by food from all over the world. They serve tapas dishes in a homey and cozy setting by lovely and welcoming staff.  At Tapas28 they serve a large variety of dishes and drinks for every occassion. If you're in the mood for a lot of different type of foods or just can't decide, this is a place for you.
+				<br />
+				<br />
+					Tapas 28 is located on 
+				<span class="address">
+					Pontonjärgatan 28
+				</span>
+					which is on the south part of Kungsholmen on Södermalm. A bit away from the city centre, but with food sure to be worth the ride.
+				</p>
+			</li>
+			<br />
+			<li>
+				<h1 class="number">
+					N° 1
+				</h1>
+				<h2>
+					<a href="https://www.restaurantfrantzen.com/" target="_blank" class="restaurant">
+						Frantzén
+					</a>
+				</h2>
+				<img src="https://www.theworlds50best.com/filestore/jpg/Frantzen-WORLD-2019-INTERIOR.jpg" class="numberOnePicture" />
+				<p class="description">
+					
+					Frantzén is a 
+					<span class="two">521m
+						<sup>2</sup>
+					</span> 
+					3 star michelin restaurant which I know is not in price range or interes for everyone. However, for those who are interested in Japanese and Asian fusion with Scandinavian food, this is a once in a lifetime experience. Frantzén has been rated as the 6th best restaurant in the world by WilliamReed's Top50 list, and has recieved praise from the former 3 michelin star chef Sergio Herman. Both the design of the restaurant as well as the food is pleasing to all senses and is a true once-in-a-lifetime experience and something you have to experience to understand.
+				<br />
+				<br />
+					You can find Frantzén at
+				<span class="address">
+					Klara Norra Kyrkogata 26
+				</span>
+					in the middle of Norrmalm. Easily accessible but a reservation will be neccesary to be able to enter.
+				</p>
+			</li>
+    </ul>
+	<br />
+	<hr />
+	<br />
+	<p>
+		This was my personal top 10 list of restaurants in Stockholm that you definetly should try out if you're ever around. All restaurants varies in both price class and targeted guests, so you are sure to find one that suits you. 
+	</p>
+
+
+	<h3 class="subscribe">
+		Subscribe to receive even more recomendations and member discounts!
+	</h3>
+	<p class="minimumAge">
+		<em>
+			(You have to be at least 18 years to subscribe)
+		</em>
+	</p>
+	<button>
+		<strong>
+			Subscribe here
+		</strong>
+	</button>
+	<br />
+	<br />
+		<div class="contact">
+			This page was coded by Sofia Grahn
+		<br />
+		<a href="https://www.instagram.com/sofiaagrahn/" target="_blank">
+			<span class="instagram">
+				Instagram
+			</span>
+			|
+		<a href="https://www.facebook.com/Sofiamygrahn" target="_blank">
+			<span class="faceBook">
+				Facebook
+			</span>
+		</a>
+			|
+		<a href="https://www.linkedin.com/in/sofia-grahn-249a87215/" target="_blank">
+			<span class="linkedIn">
+				LinkedIn
+			</span>
+		</a>
+	</div>
+<script>
+
+	function headFunction() {
+		let name = prompt(`Hello! What is your name?`);
+		let age = prompt(`Hello ${name}, how old are you?`)
+		let email = prompt(`What is your email address?`);
+		if (age >= 18) {
+		alert(`Thank you ${name} for your subscription, you will receive a confirmation email shortly to ${email}😁`);
+	} else {
+		alert(`Thank you ${name} for your application, unfortunately you are not old enough to subscribe. `)
+	}
+	}
+
+	let subscribeButton = document.querySelector ("button");
+	subscribeButton.addEventListener("click", headFunction)
+
+</script>
+</body>
+</html>
